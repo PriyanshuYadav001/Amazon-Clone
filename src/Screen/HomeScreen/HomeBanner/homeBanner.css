@@ -1,0 +1,67 @@
+.homeBanner{
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.homeBannerimg{
+    height: 70vh;
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(100,100,100,1),rgba(100,100,100,0.65));
+}
+
+.grayBackgroundHomeBanner{
+    background-color: rgb(238,235,235);
+    height: 80vh;
+}
+
+.homeBannerItem{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    top: 25%;
+    padding: 0 20px;
+    position: absolute;
+}
+
+.homeBannerItemCard{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 343px;
+    box-sizing: border-box;
+    padding: 20px 0 15px;
+    border-radius: 7px;
+}
+
+.homeBannerItemCardTitle{
+    margin: 0 20px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.imgHomeBannerItemCard{
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: auto auto; /* we have to show two items in a row */
+}
+
+.imgBannerHomeDiv{
+    height: 144px;
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBannerImgName{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.exploreAll{
+    margin: 0 20px;
+    font-size: 13px;
+    color: #007185;
+    font-weight: 600;
+}
